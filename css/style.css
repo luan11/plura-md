@@ -22,3 +22,81 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+.bg-gray{
+	background-color:  #e0e0e0;
+}
+
+.bg-green{
+	background: linear-gradient(to right,#009933,rgba(0,0,0,0));
+}
+
+.h2-title{
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #009933;
+}
+
+.p-text-dgray{
+	font-size: 1.2em;
+	color: #232323;
+}
+
+.carousel-select{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	left: 0;
+	z-index: 15;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none;
+}
+
+.carousel-select li{
+	position: relative;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	width: 15px; 
+	height: 15px; 
+	background: #1E824C; 
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	margin-right: 10px;
+	margin-left: 10px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-select li::before{
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+	content: "";
+}
+
+.carousel-select li::after{
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	height: 10px;
+	content: "";
+}
+
+.carousel-select .active{
+	background-color: #009933;
+	width: 20px;
+	height: 20px;
+}
