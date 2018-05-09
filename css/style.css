@@ -1,4 +1,4 @@
-.btn{
+.b-shadow{
 	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
@@ -8,4 +8,13 @@
 
 .btn-yellow:hover{
 	background-color: #cb7a0a;
+}
+
+.banner{
+	background: url("http://google.pluralmktdigital.com.br/assets/images/banner-maratona.jpg");
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
