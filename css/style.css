@@ -8,10 +8,14 @@
 
 .btn-yellow{
 	background-color: #e89622;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .btn-yellow:hover{
 	background-color: #cb7a0a;
+	color: #cecece;
 }
 
 .banner{
@@ -29,6 +33,7 @@
 
 .bg-green{
 	background: linear-gradient(to right,#009933,rgba(0,0,0,0));
+	padding: 4%;
 }
 
 .h2-title{
@@ -37,8 +42,18 @@
 	color: #009933;
 }
 
+.products-title{
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #009933;	
+}
+
+.hr{
+	padding-bottom: 2%;
+	border-bottom: 1px solid #cecece;
+}
+
 .p-text-dgray{
-	font-size: 1.2em;
 	color: #232323;
 }
 
@@ -99,4 +114,38 @@
 	background-color: #009933;
 	width: 20px;
 	height: 20px;
+}
+
+.pad-slider-serv{
+	padding: 3% 12%;
+}
+
+.plr-product-info li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.products{
+	float: left;
+}
+
+.product-price{
+	font-size: 1.3em;
+}
+
+.product-price span{
+	font-size: 1.6em;
+	font-weight: 600;
+}
+
+.product-price strong{
+	font-size: 2em;
+	color: #009933;
+	font-weight: bold;
+}
+
+.img-responsive{
+	max-width: 100%;
 }
