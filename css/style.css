@@ -1,0 +1,11 @@
+.btn{
+	box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+.btn-yellow{
+	background-color: #e89622;
+}
+
+.btn-yellow:hover{
+	background-color: #cb7a0a;
+}
