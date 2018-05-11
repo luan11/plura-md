@@ -232,3 +232,12 @@ figure{
     color:#009739;
     margin:0;
 }
+
+.secondary-prods{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
